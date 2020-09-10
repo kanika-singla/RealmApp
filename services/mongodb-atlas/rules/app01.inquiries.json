@@ -1,0 +1,33 @@
+{
+    "collection": "inquiries",
+    "database": "app01",
+    "relationships": {
+        "MatId": {
+            "ref": "#/relationship/mongodb-atlas/app01/materials",
+            "source_key": "MatId",
+            "foreign_key": "MatId",
+            "is_list": false
+        }
+    },
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "MatId": {
+                "bsonType": "string"
+            },
+            "inquiryDesc": {
+                "bsonType": "string"
+            }
+        },
+        "title": "inquiry"
+    }
+}
