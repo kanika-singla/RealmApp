@@ -1,0 +1,32 @@
+{
+    "collection": "projects",
+    "database": "employees",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "emp_id": {
+                "bsonType": "string"
+            },
+            "p_id": {
+                "bsonType": "string"
+            },
+            "p_name": {
+                "bsonType": "string"
+            }
+        },
+        "title": "project"
+    }
+}

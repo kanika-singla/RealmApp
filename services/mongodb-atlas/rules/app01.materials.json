@@ -1,0 +1,29 @@
+{
+    "collection": "materials",
+    "database": "app01",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true
+        }
+    ],
+    "schema": {
+        "properties": {
+            "MatDesc": {
+                "bsonType": "string"
+            },
+            "MatId": {
+                "bsonType": "string"
+            },
+            "MatType": {
+                "bsonType": "string"
+            },
+            "_id": {
+                "bsonType": "objectId"
+            }
+        },
+        "title": "material"
+    }
+}

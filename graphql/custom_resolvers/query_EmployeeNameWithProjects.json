@@ -1,0 +1,26 @@
+{
+    "field_name": "EmployeeNameWithProjects",
+    "function_name": "getEmployeeNameWithProjects",
+    "id": "5f634fdd3b059992754d555d",
+    "input_type": {
+        "properties": {
+            "emp_id": {
+                "type": "string"
+            }
+        },
+        "title": "queryByEmpId",
+        "type": "object"
+    },
+    "input_type_format": "custom",
+    "on_type": "Query",
+    "payload_type": {
+        "properties": {
+            "EmployeeName": {
+                "type": "string"
+            }
+        },
+        "title": "OutputArray",
+        "type": "object"
+    },
+    "payload_type_format": "custom"
+}
